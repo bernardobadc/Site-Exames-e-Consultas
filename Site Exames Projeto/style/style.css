@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+li{
+    list-style: none;
+}
+
+.normal-link{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+.blue-card{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: rgb(0, 55, 255);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+
+.blue-card:hover{
+    background-color: #002FDA;
+}
+
+.margin{
+    margin-right: 20px;
+}
+
+.logos-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.logos-top > img, .vertical-line{
+    margin-right: 23px;
+}
+
+.nav-img{
+    width: 46px;
+}
+
+.brons-img{
+    width: 117px;
+}
+
+.vertical-line {
+    border-left: 1.5px solid #83828B; 
+    height: 18px; 
+    margin-top: 2px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+main{
+    border-top: 1px solid rgba(128, 128, 128, 0.229);
+    margin-bottom: 80px;
+}
+
+.scheduling{
+    max-width: 872px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 16px;
+}
+
+.main-image{
+    width: 400px;
+    margin-top: 36px;
+}
+
+h1{
+    font-size: 32px;
+    line-height: 40px;
+    vertical-align: baseline;
+    margin-top: 15px;
+}
+
+.scheduling p{
+    font-size: 13px;
+    padding: 16px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.schedule-btn{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: rgb(0, 55, 255);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 6px;
+    transition: background-color 0.1s ease-in;
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #002FDA;
+}
+
+.brons-benefits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    width: 840px;
+    margin-top: 25px;
+}
+
+.brons-benefits img{
+    width: 27px;
+}
+
+.brons-benefits p{
+    font-size: 13px;
+}
+
+h3{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.quick-service, .appointment, .follow-up{
+    margin-right: 30px;
+}
+
+#section-prices{
+    display: grid;
+    place-items: center;
+    background-color: #E6EBFF;
+    padding: 40px;
+    padding-bottom: 55px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 120px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 24px;
+    padding: 32px;
+}
+
+.h3-top-card{
+    font-size: 16px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.cards h3{
+    margin-bottom: 0;
+}
+
+.cards button{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.middle-btn{
+    position: relative;
+    top: 142px;
+}
+
+.exams{
+    margin-top: 30px;
+}
+
+.exams p{
+    font-size: 14px;
+}
+
+.img-1{
+    position: absolute;
+    bottom: -243px;
+    left: 385px;
+}
+
+.img-2{
+    position: absolute;
+    bottom: -250px;
+    left: 730px;
+    
+}
+
+.img-3{
+    position: absolute;
+    bottom: -248px;
+    left: 1090px;
+}
+
+#about-nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #0037FF;
+    padding: 10px;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    max-width: 90%;
+    color: white;
+}
+
+.info{
+    width: 539px;
+    padding: 30px;
+    margin-right: 110px;
+}
+
+.info h1{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.info p{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.info button{
+    padding: 12px 24px;
+    background-color: white;
+    color: #002FDA;
+    border: none;
+    border-radius: 4px;
+    margin-right: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.1s ease-in;
+}
+
+.info button:hover{
+    background-color: #002FDA;
+    color: white;
+}
+
+.info button:active{
+    background-color: #072798;
+}
+
+.img-cel{
+    width: 250px;
+}
+
+footer{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+    padding: 80px;
+}
+
+footer a{
+    color: rgb(0, 55, 255);
+}
+
+.footer-info{
+    padding: 30px;
+}
+
+.footer-info p, a{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.links-footer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 65%;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.links-footer a{
+    margin-right: 35px;
+}
+
+.social-media-img{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 70px;
+    right: 50px;
+}
+
+/* Ajustar a parte de responsividade e mídias */
